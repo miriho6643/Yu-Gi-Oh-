@@ -1,8 +1,7 @@
 from __init__ import *
 
-read_cards(create_deck(deck_size=5))
-
-for i in range(5):
-    cards = deck[i]
-print(cards)
-read_cards(cards)
+for i in range(2):
+    handcards = deck[:5]
+    deck = deck[5:]
+    read_cards(handcards)
+    print("\n")

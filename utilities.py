@@ -153,3 +153,4 @@ def compare(card1: str, card2: str, card1inattack: bool, card2inattack: bool):
     return (card1 if v1 > v2 and card1inattack else card2 if v1 < v2 and card2inattack else None, abs(v1 - v2))
 
 deck = create_deck(deck_size=40)
+handcards = []

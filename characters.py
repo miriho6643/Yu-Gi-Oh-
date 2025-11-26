@@ -65,7 +65,7 @@ characters = {
         'attack': 300,
         'defense': 200,
         'effect': 'A cute but versatile monster that can save you in tough spots.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'buster_blader': {
         'name': 'Buster Blader',
@@ -115,7 +115,7 @@ characters = {
         'attack': 1200,
         'defense': 800,
         'effect': 'A quick and agile beast in battle.',
-        'icon': ['/\\_/\\', '( o.o )', ' > ^ <']
+        'icon': ['/\\_/\\', '( o.o )', '> ^ <']
     },
     'winged_dragon_of_ra': {
         'name': 'Winged Dragon of Ra',
@@ -195,7 +195,7 @@ characters = {
         'attack': 1200,
         'defense': 1400,
         'effect': 'A giant squid which drags victims below.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'cyber_dragon': {
         'name': 'Cyber Dragon',
@@ -215,7 +215,7 @@ characters = {
         'attack': 1000,
         'defense': 1000,
         'effect': 'A Bat from the underworld which senses prey using sound.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'alien_skull': {
         'name': 'Alien Skull',
@@ -225,7 +225,7 @@ characters = {
         'attack': 1600,
         'defense': 1800,
         'effect': 'A Alien that crash landed on earth.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'amphibian': {
         'name': 'Amphibian Beast',
@@ -235,7 +235,7 @@ characters = {
         'attack': 2400,
         'defense': 2000,
         'effect': 'On land or sea this monsters speed is unmatched.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'catapult_turtle': {
         'name': 'Catapult Turtle',
@@ -245,7 +245,7 @@ characters = {
         'attack': 1000,
         'defense': 2000,
         'effect': 'This Turtle will launch monsters at you.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'millennium_golem': {
         'name': 'Millennium Golem',
@@ -305,7 +305,7 @@ characters = {
         'attack': 900,
         'defense': 200,
         'effect': 'A scorpion with a fiends soul with hidden potential.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'airorca': {
         'name': 'Airorca',
@@ -315,7 +315,7 @@ characters = {
         'attack': 1400,
         'defense': 300,
         'effect': 'A orca with black and white wings which have red sigils.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'fengli_the_soldrapom': {
         'name': 'Fengli the Soldrapom',
@@ -325,7 +325,7 @@ characters = {
         'attack': 800,
         'defense': 0,
         'effect': 'a friendly little guy.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'electric_lizard': {
         'name': 'Electric_Lizard',
@@ -335,7 +335,7 @@ characters = {
         'attack': 850,
         'defense': 800,
         'effect': 'This Lizard is immune to Lighting.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'Raigeki': {
         'name': 'Raigeki',
@@ -425,7 +425,7 @@ characters = {
         'attack': 350,
         'defense': 300,
         'effect': 'A walking plant ready to to strike with its horn.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'gagagigo': {
         'name': 'Gagagigo',
@@ -435,7 +435,7 @@ characters = {
         'attack': 1850,
         'defense': 1000,
         'effect': 'This young evildoer became good after meeting a special person.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'gigobyte': {
         'name': 'Gigobyte',
@@ -445,7 +445,7 @@ characters = {
         'attack': 350,
         'defense': 300,
         'effect': 'a kind child that has a destiny tainted with evil.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'giga_gagagigo': {
         'name': 'Giga Gagagigo',
@@ -455,7 +455,7 @@ characters = {
         'attack': 2450,
         'defense': 1500,
         'effect': 'In order to fight evil he evolved, but lost his heart and redemption.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'gogiga_gagagigo': {
         'name': 'Gogiga Gagagigo',
@@ -465,7 +465,7 @@ characters = {
         'attack': 2950,
         'defense': 2800,
         'effect': 'his soul long, gone only a reckless body that doesnt resemble him anymore.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'humanoid_slime': {
         'name': 'Humanoid Slime',
@@ -475,7 +475,7 @@ characters = {
         'attack': 800,
         'defense': 2000,
         'effect': 'A slime which appearently has human genes.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'inpachi': {
         'name': 'Inpachi',
@@ -485,7 +485,7 @@ characters = {
         'attack': 1600,
         'defense': 1900,
         'effect': 'A wicked wooden spirit that was a big tree.It protects its brothers from travelers.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'blazing_inpachi': {
         'name': 'Blazing Inpachi',
@@ -495,7 +495,7 @@ characters = {
         'attack': 1850,
         'defense': 0,
         'effect': 'The same wicked wooden spirit.Its was set on fire.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'charcoal_inpachi': {
         'name': 'Charcoal Inpachi',
@@ -505,7 +505,7 @@ characters = {
         'attack': 100,
         'defense': 2100,
         'effect': 'the wicked wooden spirit has been burnt to ashes',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'woodborg_inpachi': {
         'name': 'Woodborg Inpachi',
@@ -515,7 +515,7 @@ characters = {
         'attack': 500,
         'defense': 2500,
         'effect': 'The new form of the enigmatic Inpachi after a mad scientist modified and put armour it.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'apprentice_magician': {
         'name': 'Apprentice Magician',
@@ -525,7 +525,7 @@ characters = {
         'attack': 400,
         'defense': 800,
         'effect': 'The apprentice of a certain magician.',
-        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+        'icon': ['/\\_/\\', '(o.o)', '> ^ <']
     },
     'reinforcements': {
         'name': 'Reinforcements',
@@ -547,4 +547,14 @@ characters = {
         'effect': 'Target 1 monster on the field; It gains +500 DEF until the end of the turn.',
         'icon': ['O']
     },    
+    'ancient_telescope': {
+        'name': 'Ancient Telescope',
+        'level': 0,
+        'typ': '',
+        'attribute': 'SPELL',
+        'attack': 0,
+        'defense': 0,
+        'effect': 'See the top 5 cards of your opponents deck;Return the cards the same way.',
+        'icon': ['O']
+    },
 }
