@@ -1,4 +1,4 @@
-import time, random, os, __init__, pyttsx3
+import time, random, os, pyttsx3
 from characters import *
 
 engine = pyttsx3.init()
