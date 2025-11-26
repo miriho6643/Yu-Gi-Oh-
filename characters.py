@@ -477,5 +477,46 @@ characters = {
         'effect': 'A slime which appearently has human genes.',
         'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
     },
+    'inpachi': {
+        'name': 'Inpachi',
+        'level': 4,
+        'typ': 'machine',
+        'attribute': 'EARTH',
+        'attack': 1600,
+        'defense': 1900,
+        'effect': 'A wicked wooden spirit that was a big tree.It protects its brothers from travelers.',
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+    },
+    'blazing_inpachi': {
+        'name': 'Blazing Inpachi',
+        'level': 4,
+        'typ': 'pyro',
+        'attribute': 'FIRE',
+        'attack': 1850,
+        'defense': 0,
+        'effect': 'The same wicked wooden spirit.Its was set on fire.',
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+    },
+    'charcoal_inpachi': {
+        'name': 'Charcoal Inpachi',
+        'level': 1,
+        'typ': 'pyro',
+        'attribute': 'FIRE',
+        'attack': 100,
+        'defense': 2100,
+        'effect': 'the wicked wooden spirit has been burnt to ashes',
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+    },
+    'woodborg_inpachi': {
+        'name': 'Woodborg Inpachi',
+        'level': 5,
+        'typ': 'machine',
+        'attribute': 'FIRE',
+        'attack': 500,
+        'defense': 2500,
+        'effect': 'The new form of the enigmatic Inpachi after a mad scientist modified and put armour it.',
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+    },
 }
+
 
