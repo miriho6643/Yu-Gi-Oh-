@@ -517,6 +517,17 @@ characters = {
         'effect': 'The new form of the enigmatic Inpachi after a mad scientist modified and put armour it.',
         'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
     },
+    'apprentice_magician': {
+        'name': 'Apprentice Magician',
+        'level': 2,
+        'typ': 'spellcaster',
+        'attribute': 'DARK',
+        'attack': 400,
+        'defense': 800,
+        'effect': 'The apprentice of a certain magician.',
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+    },   
 }
+
 
 
