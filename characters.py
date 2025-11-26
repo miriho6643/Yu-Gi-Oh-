@@ -537,7 +537,18 @@ characters = {
         'effect': 'Target 1 face-up monster on the field; It gains +500 ATK until the end of this turn.',
         'icon': ['O']
     }, 
+    'castle_walls': {
+        'name': 'Castle Walls',
+        'level': 0,
+        'typ': '',
+        'art': 'TRAP',
+        'attack': 0,
+        'defense': 0,
+        'effect': 'Target 1 monster on the field; It gains +500 DEF until the end of this turn.',
+        'icon': ['O']
+    }, 
 }
+
 
 
 
