@@ -7,7 +7,7 @@
 # DO NOT EDIT UNAUTORIZED
 
 characters = {
-    'dragon': {
+    'blue_eyes_white_dragon': {
         'name': 'Blue-Eyes White Dragon',
         'level': 8,
         'typ': 'Dragon',
@@ -65,7 +65,7 @@ characters = {
         'attack': 300,
         'defense': 200,
         'effect': 'A cute but versatile monster that can save you in tough spots.',
-        'icon': ['(o_o)', '/|_|\\', '/ \\']
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
     },
     'buster_blader': {
         'name': 'Buster Blader',
@@ -230,7 +230,7 @@ characters = {
     'amphibian': {
         'name': 'Amphibian Beast',
         'level': 6,
-        'typ': 'Fish',
+        'typ': 'FISH',
         'attribute': 'WATER',
         'attack': 2400,
         'defense': 2000,
@@ -240,7 +240,7 @@ characters = {
     'catapult_turtle': {
         'name': 'Catapult Turtle',
         'level': 5,
-        'typ': 'Aqua',
+        'typ': 'AQUA',
         'attribute': 'WATER',
         'attack': 1000,
         'defense': 2000,
@@ -250,7 +250,7 @@ characters = {
     'millennium_golem': {
         'name': 'Millennium Golem',
         'level': 6,
-        'typ': 'Rock',
+        'typ': 'ROCK',
         'attribute': 'EARTH',
         'attack': 2000,
         'defense': 2200,
@@ -274,13 +274,13 @@ characters = {
         'attribute': 'TRAP',
         'attack': 0,
         'defense': 0,
-        'effect': 'Negate your opponent opponents attack.',
+        'effect': 'Negate your opponents attack.',
         'icon': ['O']
     },
     'chosen_by_the_chalice': {
         'name': 'Chosen by the World Chalice',
         'level': 3,
-        'typ': 'Psychic',
+        'typ': 'PSYCHIC',
         'attribute': 'FIRE',
         'attack': 1600,
         'defense': 0,
@@ -290,7 +290,7 @@ characters = {
     'zombie_dragon': {
         'name': 'Zombie Dragon',
         'level': 3,
-        'typ': 'Zombie',
+        'typ': 'ZOMBIE',
         'attribute': 'DARK',
         'attack': 1600,
         'defense': 0,
@@ -300,7 +300,7 @@ characters = {
     'fiend_scorpion': {
         'name': 'Fiend Scorpion',
         'level': 2,
-        'typ': 'Insect',
+        'typ': 'INSECT',
         'attribute': 'EARTH',
         'attack': 900,
         'defense': 200,
@@ -310,7 +310,7 @@ characters = {
     'airorca': {
         'name': 'Airorca',
         'level': 3,
-        'typ': 'Sea Serpent',
+        'typ': 'SEA SERPENT',
         'attribute': 'WIND',
         'attack': 1400,
         'defense': 300,
@@ -320,7 +320,7 @@ characters = {
     'fengli_the_soldrapom': {
         'name': 'Fengli the Soldrapom',
         'level': 1,
-        'typ': 'Plant',
+        'typ': 'PLANT',
         'attribute': 'FIRE',
         'attack': 800,
         'defense': 0,
@@ -330,7 +330,7 @@ characters = {
     'electric_lizard': {
         'name': 'Electric_Lizard',
         'level': 3,
-        'typ': 'Thunder',
+        'typ': 'THUNDER',
         'attribute': 'EARTH',
         'attack': 850,
         'defense': 800,
@@ -360,7 +360,7 @@ characters = {
     'silent_swordsman': {
         'name': 'Silent Swordsman',
         'level': 4,
-        'typ': 'Warrior',
+        'typ': 'WARRIOR',
         'attribute': 'LIGHT',
         'attack': 1000,
         'defense':1000,
@@ -370,24 +370,24 @@ characters = {
     'silent_magician': {
         'name': 'Silent Magician',
         'level': 4,
-        'typ': 'Spellcaster',
+        'typ': 'SPELLCASTER',
         'attribute': 'LIGHT',
         'attack': 1000,
         'defense': 1000,
         'effect': 'A human who can evolve.',
         'icon': ['(o_o)', '/|_|\\', '/ \\']
     },
-    'Gandora': {
+    'gandora': {
         'name': 'Gandora the Dragon of Destruction',
         'level': 8,
-        'typ': 'Warrior',
+        'typ': 'DRAGON',
         'attribute': 'DARK',
         'attack': 0,
         'defense': 0,
         'effect': '.',
         'icon': ['▲   ▲', '/\\\\_//', '\\_/ * \\_/']
     },
-    'Battle_Steer': {
+    'battle_steer': {
         'name': 'Battle Steer',
         'level': 5,
         'typ': 'beast-warrior',
@@ -400,7 +400,7 @@ characters = {
     'mammoth_graveyard': {
         'name': 'Mammoth Graveyard',
         'level': 3,
-        'typ': 'Dinosaur',
+        'typ': 'dinosaur',
         'attribute': 'EARTH',
         'attack': 1200,
         'defense': 800,
@@ -410,7 +410,7 @@ characters = {
     'pharaohs_servant': {
         'name': 'Pharaohs Servant',
         'level': 2,
-        'typ': 'Zombie',
+        'typ': 'zombie',
         'attribute': 'DARK',
         'attack': 900,
         'defense': 0,
@@ -536,21 +536,15 @@ characters = {
         'defense': 0,
         'effect': 'Target 1 face-up monster on the field; It gains +500 ATK until the end of this turn.',
         'icon': ['O']
-    }, 
+    },
     'castle_walls': {
         'name': 'Castle Walls',
         'level': 0,
         'typ': '',
-        'art': 'TRAP',
+        'attribute': 'TRAP',
         'attack': 0,
         'defense': 0,
-        'effect': 'Target 1 monster on the field; It gains +500 DEF until the end of this turn.',
+        'effect': 'Target 1 monster on the field; It gains +500 DEF until the end of the turn.',
         'icon': ['O']
-    }, 
+    },    
 }
-
-
-
-
-
-
