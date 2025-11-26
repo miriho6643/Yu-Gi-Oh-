@@ -8,24 +8,22 @@ engine.setProperty('rate', 190)
 engine.setProperty('voice', voices[1].id)
 
 class helpers:
-    @staticmethod
     def read_aloud(txt: str):
         engine.say(txt)
         engine.runAndWait()
 
-    @staticmethod
     def slow_print(txt: str, delay: float):
         for x in txt:
-            print(x, end="")
+            print(x, end="", flush=True)
             time.sleep(delay)
 
-    @staticmethod
     def get_yugioh_card(name, level, typ, attribute, attack, defense, effect, icon):
         end = "╔" + "═"*38 + "╗\n"
         end += f"║ {name.center(36)} ║\n"
         end += f"║ Level: {'*'*level:<29} ║\n"
         end += f"║ Type: {typ.ljust(30)} ║\n"
         end += "║" + "─"*38 + "║\n"
+        end += "║" + " "*38 + "║\n"
         counter = 0
         for l in icon:
             counter += 1
@@ -53,9 +51,9 @@ class helpers:
         end += "╚" + "═"*38 + "╝\n"
         return end
 
-def read_cards(cards: list):
+def read_cards(cards: list, printspeed: float = 100):
     all_decks = {**maindeck, **secdeck}
-    helpers.slow_print(list_cards(cards), 0.001)
+    helpers.slow_print(list_cards(cards), printspeed/10000000)
     for card in cards:
         helpers.read_aloud(all_decks[card]["name"])
         helpers.read_aloud(all_decks[card]["effect"])

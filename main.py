@@ -10,7 +10,3 @@ normaldeck = normaldeck[5:]
 
 # --- Handkarten anzeigen und vorlesen ---
 read_cards(handcards)
-
-# --- Restliches Deck anzeigen ---
-print("\n--- Restliches Deck ---")
-print(normaldeck)
