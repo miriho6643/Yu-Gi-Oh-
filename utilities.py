@@ -76,15 +76,15 @@ class helpers:
         
         return end
 
-def read_cards(cards: list):
+def read_cards(cards: list, deck: list = normaldeck):
     helpers.slow_print(list_cards(cards), 0.001)
     for card in cards:
-        helpers.read_aloud(characters[card]["name"])
-        helpers.read_aloud(characters[card]["effect"])
+        helpers.read_aloud(deck[card]["name"])
+        helpers.read_aloud(deck[card]["effect"])
 
 def list_cards(cards: list):
     # Kattributeen in ASCII-Strings umwandeln (falls noch nicht geschehen)
-    asciicards = [helpers.get_yugioh_card(**characters[x]) if isinstance(x, str) else x for x in cards]
+    asciicards = [helpers.get_yugioh_card(**normaldeck[x]) if isinstance(x, str) else x for x in cards]
 
     # Jede Kattributee in eine Liste aus Zeilen aufteilen
     card_lines = [card.split("\n") for card in asciicards]
@@ -114,18 +114,18 @@ def list_cards(cards: list):
     # Gesamtausgabe als String
     return "\n".join(merged)
 
-def create_deck(characters=characters, deck_size=20, max_copies=3):
+def create_deck(deck=normaldeck, deck_size=20, max_copies=3):
     deck = []
-    counts = {key: 0 for key in characters}
+    counts = {key: 0 for key in deck}
 
     while len(deck) < deck_size:
-        card = random.choice(list(characters.keys()))
+        card = random.choice(list(deck.keys()))
 
-        # Prüfen, wie viele Divine-Beast-Kattributeen bereits im Deck sind
-        divine_count = sum(1 for c in deck if characters[c]['typ'] == 'Divine-Beast')
+        # Prüfen, wie viele Divine-Beast-Kattributeen bereits im deck sind
+        divine_count = sum(1 for c in deck if deck[c]['typ'] == 'Divine-Beast')
 
-        if characters[card]['typ'] == 'Divine-Beast':
-            # Wenn schon eine Divine-Beast im Deck ist, überspringen
+        if deck[card]['typ'] == 'Divine-Beast':
+            # Wenn schon eine Divine-Beast im deck ist, überspringen
             if divine_count >= 1:
                 continue
         else:
@@ -142,8 +142,8 @@ def clear_terminal():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def compare(card1: str, card2: str, card1inattack: bool, card2inattack: bool):
-    c1 = characters[card1]
-    c2 = characters[card2]
+    c1 = normaldeck[card1]
+    c2 = normaldeck[card2]
 
     # Werte abhängig vom Modus auswählen
     v1 = c1['attack'] if card1inattack else c1['defense']
@@ -152,5 +152,5 @@ def compare(card1: str, card2: str, card1inattack: bool, card2inattack: bool):
     # Differenz berechnen (immer positiv)
     return (card1 if v1 > v2 and card1inattack else card2 if v1 < v2 and card2inattack else None, abs(v1 - v2))
 
-deck = create_deck(deck_size=40)
+maindeck = create_deck(deck_size=40)
 handcards = []
