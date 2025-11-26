@@ -417,4 +417,34 @@ characters = {
         'effect': 'An undead of one of the servants of a pharaoh.',
         'icon': ['(x_x)', '/|_|\\', '/ \\']
     },
+        'griggle': {
+        'name': 'Griggle',
+        'level': 1,
+        'typ': 'plant',
+        'art': 'EARTH',
+        'attack': 350,
+        'defense': 300,
+        'effect': 'A walking plant ready to to strike with its horn.',
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+    },
+    'gagagigo': {
+        'name': 'Gagagigo',
+        'level': 4,
+        'typ': 'reptile',
+        'art': 'WATER',
+        'attack': 1850,
+        'defense': 1000,
+        'effect': 'This young evildoer became good after meeting a special person.',
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+    },
+    'gigobyte': {
+        'name': 'Gigobyte',
+        'level': 1,
+        'typ': 'reptile',
+        'art': 'WATER',
+        'attack': 350,
+        'defense': 300,
+        'effect': 'a kind child that has a destiny tainted with evil.',
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+    },
 }
