@@ -570,7 +570,7 @@ extradeck = {
         'art': 'DARK',
         'attack': 2200,
         'defense': 800,
-        'effect': '+ "Dark Magician" + "Flame Swordsman": can only be summoned by "Polymerization".',
+        'effect': '"Dark Magician" + "Flame Swordsman": can only be summoned by "Polymerization".',
         'icon': [' /\\ ', '/==\\', ' || ']
     }, 
 }
