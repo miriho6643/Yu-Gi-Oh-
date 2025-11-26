@@ -526,8 +526,19 @@ characters = {
         'defense': 800,
         'effect': 'The apprentice of a certain magician.',
         'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
-    },   
+    },
+    'reinforcements': {
+        'name': 'Reinforcements',
+        'level': 0,
+        'typ': '',
+        'art': 'TRAP',
+        'attack': 0,
+        'defense': 0,
+        'effect': 'Target 1 face-up monster on the field; It gains +500 ATK until the end of this turn.',
+        'icon': ['O']
+    }, 
 }
+
 
 
 
