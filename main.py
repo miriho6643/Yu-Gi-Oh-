@@ -1,9 +1,16 @@
 from __init__ import *
 
-for i in range(1):
-    print(maindeck)
-    handcards = maindeck[:5]
-    maindeck = maindeck[5:]
-    read_cards(handcards)
-    print("\n")
-    print(maindeck)
+# --- Decks erstellen ---
+normaldeck = create_deck(maindeck, deck_size=40)
+extradeck = create_deck(secdeck, deck_size=15)
+
+# --- Handkarten ziehen ---
+handcards = normaldeck[:5]
+normaldeck = normaldeck[5:]
+
+# --- Handkarten anzeigen und vorlesen ---
+read_cards(handcards)
+
+# --- Restliches Deck anzeigen ---
+print("\n--- Restliches Deck ---")
+print(normaldeck)

@@ -1,7 +1,7 @@
 import os, importlib
 from utilities import *
 from characters import *
-libs = ["pyttsx3", "time", "random", "os"]
+libs = ["pyttsx3", "time", "random"]
 
 for lib in libs:
     try:
