@@ -447,4 +447,36 @@ characters = {
         'effect': 'a kind child that has a destiny tainted with evil.',
         'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
     },
+    'giga_gagagigo': {
+        'name': 'Giga Gagagigo',
+        'level': 5,
+        'typ': 'reptile',
+        'art': 'WATER',
+        'attack': 2450,
+        'defense': 1500,
+        'effect': 'In order to fight evil he evolved, but lost his heart and redemption.',
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+    },
+    'gogiga_gagagigo': {
+        'name': 'Gogiga Gagagigo',
+        'level': 8,
+        'typ': 'reptile',
+        'art': 'WATER',
+        'attack': 2950,
+        'defense': 2800,
+        'effect': 'his soul long, gone only a reckless body that doesnt resemble him anymore.',
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+    },
+    'humanoid_slime': {
+        'name': 'Humanoid Slime',
+        'level': 4,
+        'typ': 'aqua',
+        'art': 'WATER',
+        'attack': 800,
+        'defense': 2000,
+        'effect': 'A slime which appearently has human genes.',
+        'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
+    },
 }
+}
+
