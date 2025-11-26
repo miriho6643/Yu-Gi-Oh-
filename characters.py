@@ -1,5 +1,5 @@
 
-normaldeck = {
+normaldeck = characters = {
     'blue_eyes_white_dragon': {
         'name': 'Blue-Eyes White Dragon',
         'level': 8,
@@ -559,9 +559,8 @@ normaldeck = {
         'defense': 0,
         'effect': 'Fusion summon 1 fusion monster by using cards in your hand and/or deck.',
         'icon': ['O']
-    }, 
+    },  
 }
-
 extradeck = {
     'dark_flare_knight': {           #EXTRA DECK!!!!!!!!!!!!!!!! NICHT IN DECK REINGEBEN!!!!!:
         'name': 'Dark Flare Knight',
@@ -570,8 +569,17 @@ extradeck = {
         'art': 'DARK',
         'attack': 2200,
         'defense': 800,
-        'effect': '"Dark Magician" + "Flame Swordsman": can only be summoned by "Polymerization".',
+        'effect': '"Dark Magician" + "Flame Swordsman" can only be summoned by "Polymerization".',
         'icon': [' /\\ ', '/==\\', ' || ']
-    }, 
+    },
+    'black_skull_dragon': {            #EXTRA DECK
+        'name': 'Black_Skull_Dragon',
+        'level': 9,
+        'typ': 'DRAGON',
+        'art': 'DARK',
+        'attack': 3200,
+        'defense': 2500,
+        'effect': '"Summoned Skull" + "Red-Eyes-Black-Dragon" can only be summoned by "Polymerization".',
+        'icon': ['▲   ▲', '/\\\\_//', '\\_/ * \\_/']
+    },   
 }
-
