@@ -1,3 +1,4 @@
+
 normaldeck = {
     'blue_eyes_white_dragon': {
         'name': 'Blue-Eyes White Dragon',
@@ -560,3 +561,17 @@ normaldeck = {
         'icon': ['O']
     }, 
 }
+
+extradeck = {
+    'dark_flare_knight': {           #EXTRA DECK!!!!!!!!!!!!!!!! NICHT IN DECK REINGEBEN!!!!!:
+        'name': 'Dark Flare Knight',
+        'level': 6,
+        'typ': 'WARRIOR',
+        'art': 'DARK',
+        'attack': 2200,
+        'defense': 800,
+        'effect': '+ "Dark Magician" + "Flame Swordsman": can only be summoned by "Polymerization".',
+        'icon': [' /\\ ', '/==\\', ' || ']
+    }, 
+}
+
