@@ -417,7 +417,7 @@ characters = {
         'effect': 'An undead of one of the servants of a pharaoh.',
         'icon': ['(x_x)', '/|_|\\', '/ \\']
     },
-        'griggle': {
+    'griggle': {
         'name': 'Griggle',
         'level': 1,
         'typ': 'plant',
@@ -478,3 +478,4 @@ characters = {
         'icon': ['/\\_/\\', '(o.o)', ' > ^ <']
     },
 }
+
