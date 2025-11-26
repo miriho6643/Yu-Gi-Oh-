@@ -531,13 +531,14 @@ characters = {
         'name': 'Reinforcements',
         'level': 0,
         'typ': '',
-        'art': 'TRAP',
+        'attribute': 'TRAP',
         'attack': 0,
         'defense': 0,
         'effect': 'Target 1 face-up monster on the field; It gains +500 ATK until the end of this turn.',
         'icon': ['O']
     }, 
 }
+
 
 
 
