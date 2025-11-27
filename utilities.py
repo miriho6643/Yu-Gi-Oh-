@@ -71,11 +71,10 @@ class network:
     
     def send(socket_obj, nachricht):
         socket_obj.sendall(nachricht.encode())
-        print("gesendet")
 
     def get(socket_obj):
         data = socket_obj.recv(1024).decode()
-        print(f"Empfangen: {data}")
+        return(data)
 
 class gameplay:
     def read_cards(cards: list, printspeed: float = 100):
@@ -146,3 +145,12 @@ class gameplay:
 
     def clear_terminal():
         os.system('cls' if os.name == 'nt' else 'clear')
+
+    def connect(ip, port=5000):
+        x = None
+        n = network.connect(ip, port)
+        network.send(n, "YGO!")
+        print("Warte auf anderen Spieler...")
+        network.get(n)
+        network.send(n, "LET'S GO!")
+        print("Spieler gefunden. Starte YuGiOh!...")

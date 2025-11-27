@@ -9,3 +9,5 @@ for lib in libs:
     except ImportError:
         os.system(f"python -m pip install {lib}")
         importlib.import_module(lib)
+
+gameplay.connect("spielwiese.local")
